@@ -1,0 +1,37 @@
+# 부모 자식 선택자
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      ul li {
+        color: red;
+      }
+      #lecture > li {
+        border: 1px solid red;
+      }
+      ul, ol {
+        background-color: powderblue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <ol id="lecture">
+      <li>HTML</li>
+      <li>CSS
+        <ol>
+          <li>selector</li>
+          <li>declaration</li>
+        </ol>
+      </li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
+```
