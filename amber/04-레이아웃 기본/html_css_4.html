@@ -1,0 +1,81 @@
+<html>
+<head>
+  <style>
+
+  *{ /*모든 element를 지칭한다.*/
+    box-sizing: border-box;
+  }
+
+  html{
+    border: 1px solid gray;
+  }
+  #me{
+    /* position: relative; /*포지션 지정이 있어야 left와 top 속성이 먹힌다.*/ */
+    position: static; /*left, top, right, bottom 값을 무시하고 자기가 위치해야할 곳에 정적으로 위치한다.*/
+    left: 100px;
+    top: 100px;
+  }
+
+  h1, a{
+    border: 1px solid orange;
+  }
+  h1{
+    display: inline;
+  }
+  a{display: block;}
+  /*
+  p{
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+}
+*/
+p{ /*위에와 같은 표현.*/
+  border: 10px solid red;
+  padding: 60px; /*테두리 안*/
+  margin: 60px; /*테두리 바깥*/
+  width: 500px;
+}
+div{
+  margin: 10px;
+  width: 150px;
+  border: 5px solid tomato;
+}
+#small{
+  border: 10px solid black;
+}
+#large{
+  border: 30px solid black;
+}
+</style>
+</head>
+<body>
+  <div id="other">other</div>
+  <div id="parent">
+    parent
+    <div id="me">me</div>
+  </div>
+
+  <h1>Hello world</h1><br>
+  <h1>Hello world</h1>
+  <!--h1태그는 자동으로 줄바꿈이 된다.-->
+  <!--h1은 전체 크기를 쓴다. = 블럭 레벨 엘리먼트 -->
+  안녕하세요. westbro입니다. <a href="https://opentutorials.org">생활코딩</a>입니다.
+  <!--a태그는 자동으로 줄바꿈이 되지 않는다.-->
+  <!--a태그는 딱 자기 크기만큼만 쓴다. = 인라인 태그 -->
+
+
+  <div id="small">Hello</div>
+  <div id="large">Hello</div>
+
+  <p> <!--p태그는 paragraph 의 약자. 단락이라는 뜻.-->
+    What is Lorem Ipsum?
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+  <p>
+    What is Lorem Ipsum?
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+
+</body>
+</html>
