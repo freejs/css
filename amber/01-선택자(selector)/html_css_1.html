@@ -1,0 +1,57 @@
+<html>
+<head>
+  <style>
+  ul li{ /*ul 밑에 있는 li 에 대해서만*/
+    color:red;
+    text-decoration:underline;
+  }
+  #lecture>li{
+    border: 1px solid red;
+    color: orange;
+  }
+  ul, ol{
+    background-color: powderblue;
+  }
+  a:link{
+    color:black;
+  }
+  a:visited{
+    color:red;
+  }
+  a:hover{
+    color:yellow;
+  }
+  a:active{
+    color:green;
+  }
+  a:focus{
+    color:orange;
+  }
+  input:focus{ /*또 다른 focus 기능 적용 사례*/
+    background-color: black;
+    color:white;
+  }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <ol id="lecture"> <!--id="lecture" 는 html 문법-->
+    <li>HTML</li>
+    <li>CSS
+      <ol>
+        <li>selector</li>
+        <li>declaration</li>
+      </ol>
+    </li>
+    <li>JavaScript</li>
+  </ol>
+
+  <a href="https://opentutorials.org">방문함</a>
+  <a href="https://a.a">방문안함</a><br>
+  <input type="text">
+</body>
+</html>
