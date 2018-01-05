@@ -1,0 +1,36 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    ../.DS_Store
+#	deleted:    ../README.md
+#	deleted:    README.md
+#	deleted:    "../chris/01 - CSS \354\206\214\352\260\234/README.md"
+#	deleted:    "../chris/02 - \354\213\244\354\212\265\355\231\230\352\262\275/README.md"
+#	deleted:    "../chris/03 - HTML\352\263\274 CSS\352\260\200 \353\247\214\353\202\230\353\212\224 \353\262\225/README.md"
+#	deleted:    "../chris/04 - \354\204\240\355\203\235\354\236\220\354\231\200 \354\204\240\354\226\270/README.md"
+#	deleted:    "../chris/05 - ID \354\204\240\355\203\235\354\236\220/README.md"
+#	deleted:    "../chris/06 - \353\266\200\353\252\250 \354\236\220\354\213\235 \354\204\240\355\203\235\354\236\220/README.md"
+#	deleted:    "../chris/07 - \354\204\240\355\203\235\354\236\220 \352\263\265\353\266\200 \355\214\201/README.md"
+#	deleted:    "../chris/08 - \352\260\200\354\203\201 \355\201\264\353\236\230\354\212\244 \354\204\240\355\203\235\354\236\220/README.md"
+#	deleted:    "../chris/09 - \354\203\201\354\206\215/README.md"
+#	deleted:    "../chris/10 - \354\272\220\354\212\244\354\274\200\354\235\264\353\224\251 \354\235\264\353\236\200? (\354\240\201\354\232\251 \354\232\260\354\204\240\354\210\234\354\234\204)/README.md"
+#	deleted:    "../chris/11 - \354\272\220\354\212\244\354\274\200\354\235\264\353\224\251 \354\213\244\354\212\265/README.md"
+#	deleted:    "../chris/12 - \355\201\254\352\270\260: font-size/README.md"
+#	deleted:    "../chris/13 - \354\203\211\354\203\201: color/README.md"
+#	deleted:    "../chris/14 - \354\240\225\353\240\254: text-align/README.md"
+#	deleted:    "../chris/15 - \354\204\234\354\262\264: font-family, font-weight, line-height/README.md"
+#	deleted:    "../chris/16 - \354\233\271\355\217\260\355\212\270/README.md"
+#	deleted:    ../chris/README.md
+#	deleted:    ../dan/README.md
+#
+# Untracked files:
+#	../.DS_Store
+#	../README.md
+#	./
+#	../chris/
+#
+
