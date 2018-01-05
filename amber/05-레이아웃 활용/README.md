@@ -93,13 +93,59 @@ flex의 direction은
 - `flex` flex-grow, flex-shrink, flex-basis 를 축약한 것이다.  
 - `order` 아이템들의 순서를 바꾸고 싶을 때.  
 
+
 ### 미디어쿼리 기본
+
+미디어의 상태를 미디어에게 물어봐서 그 상태에 따라서 다른 디자인을 할 수 있게 한다.  
+그런 상황에서 그 장치에 적합한 디자인/ 표현을 할 수 있도록 해주는 기술이 바로 **미디어 쿼리**  
+
+반응형 디자인 : 화면의 크기에 능동적으로 반응해서 거기에 최적화된 모습을 보여준다.  
+
+
+```javascript
+  <style>
+  /* 화면의 크기가 500px이하일 때 바디 태그의 background-color를 붉은색으로 한다.*/
+
+  @media (max-width: 600px){
+    body{
+      background-color: green;
+    }
+  }
+  @media (max-width: 500px){
+    body{
+      background-color: red;
+    }
+  }
+  </style>
+```  
+
+*나머지 모든 캐스케이딩의 조건이 같다면 코드가 나중에 나오는 것이 우선순위가 높아진다.*
+
+
+```javascript
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+*모바일에서도 화면이 알맞은 크기로 조절됨(?)*
 
 
 ### 미디어쿼리 응용
 
+호오옹ㅇ이
+
 
 ### float 기본
+
+float의 사전적 의미 붕 뜨다, 부유하다.  
+
+글의 본문 안에서 image를 삽입 할 때, 자연스럽게 삽입하기 위한 것.  
+layout을 잡을 때에도 이용하기도 한다.  
+
+```javascript
+  <p style="clear: both;">
+```  
+
+p태그의 float가 right일 때에만 clear시킨다.  
 
 
 ### float을 활용한 holy grail 레이아웃
