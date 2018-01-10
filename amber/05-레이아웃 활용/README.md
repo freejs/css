@@ -49,7 +49,7 @@ row, cloumn, row-reverse, column-reverse.
 flex 관련 중요한 속성 세가지. container가 아닌 item에게 해당되는 속성.  
 `flex-basis` 는 flex방향에 해당되는 element의 크기를 지정하는 것이다.  
 `flex-grow` 는 여백의 비중 결정하는 것. 기본값은 0.  
-`flex-shrink` 는 flex-grow의 반대 기능. 0 일 때에는 공간을 갖고있는 부분만 줄어든다.(페이지를 줄일시) 1로 두면 페이지 크기를 줄이더라도 갖고있는 공간을 유지한다. 기본값은 1.  
+`flex-shrink` 는 flex-grow의 반대 기능. 1 일 때에는 공간을 갖고있는 부분만 줄어든다.(페이지를 줄일시) 0로 두면 페이지 크기를 줄이더라도 갖고있는 공간을 유지한다. 기본값은 1.  
 shrink를 사용하기 위해서는 어떤 특정 element가 basis 값을 가지고 있을 때.   
 
 어렵.  
