@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body{
+            padding-top:30px;
+        }
+        #parent, #other{
+            border:5px solid tomato;
+        }
+        #large{
+            height:10000px;
+            background-color: tomato;
+        }
+        #me{
+            background-color: black;
+            color:white;
+            position: fixed;
+            left:0;
+            top:0;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    <div id="parent">
+       parent
+       <div id="me">me</div>
+    </div>
+    <div id="large">large</div>
+  </body>
+</html>
+
+<!-- 
+  position
+  fixed는 스크롤과 상관없이 화면의 특정한 위치에 고정시킬 때 사용 
+  부모 자식의 연이 끊어졌기 때문에 부모의 크기에 fixed를 포함하지 않는다.
+-->

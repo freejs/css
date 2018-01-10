@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html {
+        border: 1px solid gray;
+      }
+      div {
+        border: 1px solid tomato;
+        margin: 10px;
+      }
+      #me {
+        position: relative;
+        left: 100px;
+        top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    <div id="parent">
+      parent
+      <div id="me">me</div>
+    </div>
+  </body>
+</html>
+
+<!-- 각각의 엘리먼트의 위치를 결정 
+  position의 기본값은 static이다
+  static의 경우 left, top, right, bottom 설정이 적용되지 않는다
+  relative의 경우 offset 설정이 가능
+  offset 설정은 left, top, right, bottom을 의미
+  position의 left와 top이 우선순위(right와 bottom보다)
+-->

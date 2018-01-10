@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        border-bottom: 1px solid gray;
+        padding-left: 20px;
+      }
+      footer {
+        border-top: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+      }
+      .content {
+        display: flex;
+      }
+      .content nav {
+        border-right: 1px solid gray;
+      }
+      .content aside {
+        border-left: 1px solid gray;
+      }
+      nav, aside {
+        flex-basis: 150px;
+        flex-shrink: 0;
+      }
+      main {
+        flex-grow: 1;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>생활코딩</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+          </ul>
+        </nav>
+        <main>
+          생코강의 잘 듣고 갑니다
+        </main>
+        <aside>
+          AD
+        </aside>
+      </section>
+      <footer>
+          <a href="https://opentutorials.org/course/1">홈페이지</a>
+      </footer>
+    </div>
+  </body>
+</html>
+<!-- 
+  Holy Gray Layout
+화면이 작아짐에 따라서 Main의 크기가 줄어드는 형태
+[Header]
+[Nav][Main][Ad]
+[Footer] 
+-->

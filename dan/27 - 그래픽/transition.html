@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      a {
+        font-size: 3rem;
+        display: inline-block;
+        /* 
+        transition-property: all;
+        transition-duration: 1s; 
+        transition: all 1s;
+        */
+        transition: font-size 1s, transform 0.1s;
+      }
+      a:active {
+        transform: translate(20px, 20px);
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Click</a>
+  </body>
+</html>
+
+<!-- 
+  transition은 css3에서 부터 적용 움직임이다 
+  inline element에서만 적용
+  transition-property 적용할 애니메이션 지정
+  복수 적용
+-->

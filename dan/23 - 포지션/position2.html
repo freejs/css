@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        #parent, #other, #grand{
+            border:5px solid tomato;
+        }
+        #grand{
+            position: relative;
+        }
+        #me{
+            background-color: black;
+            color:white;
+            position: absolute;
+            left:0;
+            top:0;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    <div id="grand">
+       grand
+        <div id="parent">
+           parent
+           <div id="me">me</div>
+        </div>
+    </div>
+     
+  </body>
+</html>
+<!-- 
+position
+absolute를 하면 html의 위치를 기준으로 하여 자리를 잡는다 
+이 때, left와 top의 기본값이 부모값 기준으로 설정되어 있다.
+따라서 left와 top을 0px로 설정하게 되었을 때 html의 태그위치를 따른다.
+
+만약에 parent의 position이 relative라면 자식은 html기준이 아니라 perent기준이 된다.
+정확하게는 parent중에 position이 static이 아닌 것을 만날 때 까지 찾아가서 offset을 지정합니다를 의미
+
+
+-->
